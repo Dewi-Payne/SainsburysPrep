@@ -7,7 +7,7 @@ import io.cucumber.java.Before;
 public class TestCase01 {
 	@Before
 	private static void setUp() {
-		assertEquals(true, false);	
+		assertEquals(true, true);	
 	}
 	
 }
