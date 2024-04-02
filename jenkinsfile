@@ -12,7 +12,7 @@ pipeline {
             }
             post {
                 always {
-                    junit testResults: '**/test_results/*.xml', skipPublishingChecks: true
+                    junit testResults: '**/test-results/**/*.xml', skipPublishingChecks: true
                 }
             }
         }
