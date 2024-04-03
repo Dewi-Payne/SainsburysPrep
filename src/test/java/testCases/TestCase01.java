@@ -10,6 +10,6 @@ public class TestCase01 {
 	}
 	
 	public void test02() {
-		assertEquals(true, false);
+		assertEquals(true, false); 
 	}
 }
