@@ -10,11 +10,6 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
-            post {
-                always {
-                    junit testResults: '**/test_results/*.xml', skipPublishingChecks: true
-                }
-            }
         }
     }
 }
