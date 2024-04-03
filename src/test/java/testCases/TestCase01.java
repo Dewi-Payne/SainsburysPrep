@@ -8,4 +8,8 @@ public class TestCase01 {
 	public void test01() {
 		assertEquals(true, true);
 	}
+	
+	public void test02() {
+		assertEquals(true, false);
+	}
 }
